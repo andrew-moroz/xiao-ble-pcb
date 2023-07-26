@@ -8,20 +8,20 @@
 </settings>
 <grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="yes" active="no"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="no"/>
-<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="no"/>
-<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="no"/>
-<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="no"/>
-<layer number="20" name="Dimension" color="24" fill="1" visible="yes" active="no"/>
-<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="no"/>
-<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="no"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="no"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="no"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="no"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="no"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="no"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="no"/>
+<layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="no" active="no"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="no" active="no"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="no"/>
+<layer number="20" name="Dimension" color="24" fill="1" visible="no" active="no"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="no" active="no"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="no" active="no"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="no"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="no"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="no" active="no"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="no" active="no"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="no" active="no"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="no" active="no"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="no"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="no"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="no"/>
@@ -30,8 +30,8 @@
 <layer number="34" name="bFinish" color="6" fill="6" visible="no" active="no"/>
 <layer number="35" name="tGlue" color="7" fill="4" visible="no" active="no"/>
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="no"/>
-<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="no"/>
-<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="no"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="no"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="no"/>
 <layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="no"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="no"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="no"/>
@@ -39,21 +39,21 @@
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="no"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="no"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="no" active="no"/>
-<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="no"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="no"/>
-<layer number="48" name="Document" color="7" fill="1" visible="yes" active="no"/>
-<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="no"/>
-<layer number="50" name="dxf" color="7" fill="1" visible="yes" active="no"/>
-<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="no"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="no"/>
-<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="yes" active="no"/>
-<layer number="54" name="bGND_GNDA" color="1" fill="9" visible="yes" active="no"/>
-<layer number="56" name="wert" color="7" fill="1" visible="yes" active="no"/>
-<layer number="57" name="tCAD" color="7" fill="1" visible="yes" active="no"/>
-<layer number="58" name="b3D" color="7" fill="1" visible="yes" active="no"/>
-<layer number="59" name="tCarbon" color="7" fill="1" visible="yes" active="no"/>
-<layer number="60" name="bCarbon" color="7" fill="1" visible="yes" active="no"/>
-<layer number="61" name="stand" color="7" fill="1" visible="yes" active="no"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="no"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="no"/>
+<layer number="48" name="Document" color="7" fill="1" visible="no" active="no"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="no" active="no"/>
+<layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="no" active="no"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="no"/>
+<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
+<layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
+<layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
+<layer number="57" name="tCAD" color="7" fill="1" visible="no" active="no"/>
+<layer number="58" name="b3D" color="7" fill="1" visible="no" active="no"/>
+<layer number="59" name="tCarbon" color="7" fill="1" visible="no" active="no"/>
+<layer number="60" name="bCarbon" color="7" fill="1" visible="no" active="no"/>
+<layer number="61" name="stand" color="7" fill="1" visible="no" active="no"/>
 <layer number="88" name="SimResults" color="9" fill="1" visible="yes" active="yes"/>
 <layer number="89" name="SimProbes" color="9" fill="1" visible="yes" active="yes"/>
 <layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
@@ -674,6 +674,12 @@ Seeed Studio XIAO nRF52840 Sense is a tiny Bluetooth BLE development board desig
 <attribute name="PIN_4" value="D4"/>
 </part>
 <part name="U$6" library="microbuilder" deviceset="GND" device=""/>
+<part name="JP5" library="breakouts" deviceset="PADS-4" device="" value="GPIO Breakout 2">
+<attribute name="PIN_1" value="GND"/>
+<attribute name="PIN_2" value="RST"/>
+<attribute name="PIN_3" value="SWCLK"/>
+<attribute name="PIN_4" value="SWDIO"/>
+</part>
 </parts>
 <sheets>
 <sheet>
@@ -684,17 +690,17 @@ Seeed Studio XIAO nRF52840 Sense is a tiny Bluetooth BLE development board desig
 <attribute name="NAME" x="106.68" y="74.422" size="1.778" layer="95"/>
 <attribute name="VALUE" x="106.68" y="40.64" size="1.778" layer="96"/>
 </instance>
-<instance part="JP4" gate="G$1" x="38.1" y="119.38" smashed="yes" rot="R90">
-<attribute name="PIN_1" x="42.672" y="122.428" size="1.778" layer="96" rot="R90"/>
-<attribute name="PIN_2" x="40.132" y="122.682" size="1.778" layer="96" rot="R90"/>
-<attribute name="PIN_3" x="37.592" y="122.428" size="1.778" layer="96" rot="R90"/>
-<attribute name="PIN_4" x="35.306" y="122.428" size="1.778" layer="96" rot="R90"/>
+<instance part="JP4" gate="G$1" x="38.1" y="121.92" smashed="yes" rot="R90">
+<attribute name="PIN_1" x="42.672" y="124.968" size="1.778" layer="96" rot="R90"/>
+<attribute name="PIN_2" x="40.132" y="125.222" size="1.778" layer="96" rot="R90"/>
+<attribute name="PIN_3" x="37.592" y="124.968" size="1.778" layer="96" rot="R90"/>
+<attribute name="PIN_4" x="35.306" y="124.968" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="JP1" gate="G$1" x="78.74" y="119.38" smashed="yes" rot="R90">
-<attribute name="PIN_1" x="75.692" y="122.682" size="1.778" layer="96" rot="R90"/>
-<attribute name="PIN_2" x="78.232" y="122.682" size="1.778" layer="96" rot="R90"/>
-<attribute name="PIN_3" x="80.772" y="122.682" size="1.778" layer="96" rot="R90"/>
-<attribute name="PIN_4" x="83.312" y="122.682" size="1.778" layer="96" rot="R90"/>
+<instance part="JP1" gate="G$1" x="78.74" y="121.92" smashed="yes" rot="R90">
+<attribute name="PIN_1" x="75.692" y="125.222" size="1.778" layer="96" rot="R90"/>
+<attribute name="PIN_2" x="78.232" y="125.222" size="1.778" layer="96" rot="R90"/>
+<attribute name="PIN_3" x="80.772" y="125.222" size="1.778" layer="96" rot="R90"/>
+<attribute name="PIN_4" x="83.312" y="125.222" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="JP2" gate="G$1" x="50.8" y="15.24" smashed="yes" rot="R270">
 <attribute name="PIN_1" x="53.34" y="10.16" size="1.778" layer="96" rot="R270"/>
@@ -702,8 +708,8 @@ Seeed Studio XIAO nRF52840 Sense is a tiny Bluetooth BLE development board desig
 <attribute name="PIN_3" x="48.26" y="10.16" size="1.778" layer="96" rot="R270"/>
 <attribute name="PIN_4" x="45.72" y="10.16" size="1.778" layer="96" rot="R270"/>
 </instance>
-<instance part="U$18" gate="G$1" x="81.28" y="63.5" smashed="yes" rot="R90">
-<attribute name="VALUE" x="83.82" y="61.976" size="1.27" layer="96" rot="R90"/>
+<instance part="U$18" gate="G$1" x="66.548" y="64.77" smashed="yes" rot="R90">
+<attribute name="VALUE" x="69.088" y="63.246" size="1.27" layer="96" rot="R90"/>
 </instance>
 <instance part="U$1" gate="G$1" x="149.86" y="45.72" smashed="yes" rot="R90">
 <attribute name="VALUE" x="152.4" y="44.196" size="1.27" layer="96" rot="R90"/>
@@ -714,11 +720,11 @@ Seeed Studio XIAO nRF52840 Sense is a tiny Bluetooth BLE development board desig
 <instance part="U$3" gate="G$1" x="76.2" y="106.68" smashed="yes">
 <attribute name="VALUE" x="74.676" y="104.14" size="1.27" layer="96"/>
 </instance>
-<instance part="U$4" gate="G$1" x="43.18" y="106.68" smashed="yes">
-<attribute name="VALUE" x="41.656" y="104.14" size="1.27" layer="96"/>
+<instance part="U$4" gate="G$1" x="43.18" y="109.22" smashed="yes">
+<attribute name="VALUE" x="41.656" y="106.68" size="1.27" layer="96"/>
 </instance>
-<instance part="U$5" gate="G$1" x="33.02" y="106.68" smashed="yes">
-<attribute name="VALUE" x="31.496" y="104.14" size="1.27" layer="96"/>
+<instance part="U$5" gate="G$1" x="33.02" y="109.22" smashed="yes">
+<attribute name="VALUE" x="31.496" y="106.68" size="1.27" layer="96"/>
 </instance>
 <instance part="U1" gate="G$1" x="38.1" y="58.42" smashed="yes">
 <attribute name="NAME" x="17.78" y="82.55" size="1.27" layer="95" ratio="12"/>
@@ -732,6 +738,12 @@ Seeed Studio XIAO nRF52840 Sense is a tiny Bluetooth BLE development board desig
 </instance>
 <instance part="U$6" gate="G$1" x="7.62" y="35.56" smashed="yes">
 <attribute name="VALUE" x="6.096" y="33.02" size="1.27" layer="96"/>
+</instance>
+<instance part="JP5" gate="G$1" x="12.7" y="121.92" smashed="yes" rot="R90">
+<attribute name="PIN_1" x="9.652" y="125.222" size="1.778" layer="96" rot="R90"/>
+<attribute name="PIN_2" x="12.192" y="124.968" size="1.778" layer="96" rot="R90"/>
+<attribute name="PIN_3" x="14.732" y="124.968" size="1.778" layer="96" rot="R90"/>
+<attribute name="PIN_4" x="17.272" y="124.968" size="1.778" layer="96" rot="R90"/>
 </instance>
 </instances>
 <busses>
@@ -751,20 +763,20 @@ Seeed Studio XIAO nRF52840 Sense is a tiny Bluetooth BLE development board desig
 <segment>
 <pinref part="JP1" gate="G$1" pin="2"/>
 <pinref part="U$3" gate="G$1" pin="GND"/>
-<wire x1="77.47" y1="118.11" x2="77.47" y2="109.22" width="0.1524" layer="91"/>
+<wire x1="77.47" y1="120.65" x2="77.47" y2="109.22" width="0.1524" layer="91"/>
 <wire x1="77.47" y1="109.22" x2="76.2" y2="109.22" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="JP4" gate="G$1" pin="1"/>
 <pinref part="U$5" gate="G$1" pin="GND"/>
-<wire x1="34.29" y1="118.11" x2="34.29" y2="109.22" width="0.1524" layer="91"/>
-<wire x1="34.29" y1="109.22" x2="33.02" y2="109.22" width="0.1524" layer="91"/>
+<wire x1="34.29" y1="120.65" x2="34.29" y2="111.76" width="0.1524" layer="91"/>
+<wire x1="34.29" y1="111.76" x2="33.02" y2="111.76" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="JP4" gate="G$1" pin="4"/>
 <pinref part="U$4" gate="G$1" pin="GND"/>
-<wire x1="41.91" y1="118.11" x2="43.18" y2="118.11" width="0.1524" layer="91"/>
-<wire x1="43.18" y1="118.11" x2="43.18" y2="109.22" width="0.1524" layer="91"/>
+<wire x1="41.91" y1="120.65" x2="43.18" y2="120.65" width="0.1524" layer="91"/>
+<wire x1="43.18" y1="120.65" x2="43.18" y2="111.76" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="JP3" gate="G$1" pin="1"/>
@@ -774,9 +786,8 @@ Seeed Studio XIAO nRF52840 Sense is a tiny Bluetooth BLE development board desig
 </segment>
 <segment>
 <pinref part="U$18" gate="G$1" pin="GND"/>
-<wire x1="78.74" y1="63.5" x2="78.74" y2="64.77" width="0.1524" layer="91"/>
-<wire x1="78.74" y1="64.77" x2="63.5" y2="64.77" width="0.1524" layer="91"/>
 <pinref part="U1" gate="G$1" pin="GND"/>
+<wire x1="64.008" y1="64.77" x2="63.5" y2="64.77" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$2" class="0">
@@ -829,29 +840,10 @@ Seeed Studio XIAO nRF52840 Sense is a tiny Bluetooth BLE development board desig
 <net name="N$7" class="0">
 <segment>
 <pinref part="U2" gate="G$1" pin="SCK"/>
-<wire x1="101.6" y1="58.42" x2="81.28" y2="58.42" width="0.1524" layer="91"/>
-<wire x1="81.28" y1="58.42" x2="81.28" y2="48.26" width="0.1524" layer="91"/>
-<wire x1="81.28" y1="48.26" x2="63.5" y2="48.26" width="0.1524" layer="91"/>
-<wire x1="63.5" y1="48.26" x2="63.5" y2="49.53" width="0.1524" layer="91"/>
+<wire x1="101.6" y1="58.42" x2="76.2" y2="58.42" width="0.1524" layer="91"/>
+<wire x1="76.2" y1="58.42" x2="76.2" y2="49.53" width="0.1524" layer="91"/>
+<wire x1="76.2" y1="49.53" x2="63.5" y2="49.53" width="0.1524" layer="91"/>
 <pinref part="U1" gate="G$1" pin="P1.13_D8_SCK"/>
-</segment>
-</net>
-<net name="N$8" class="0">
-<segment>
-<pinref part="U2" gate="G$1" pin="MISO"/>
-<wire x1="101.6" y1="60.96" x2="73.66" y2="60.96" width="0.1524" layer="91"/>
-<wire x1="73.66" y1="60.96" x2="73.66" y2="57.15" width="0.1524" layer="91"/>
-<wire x1="73.66" y1="57.15" x2="63.5" y2="57.15" width="0.1524" layer="91"/>
-<pinref part="U1" gate="G$1" pin="P1.15_D10_MOSI"/>
-</segment>
-</net>
-<net name="N$9" class="0">
-<segment>
-<pinref part="U2" gate="G$1" pin="MOSI"/>
-<wire x1="101.6" y1="63.5" x2="86.36" y2="63.5" width="0.1524" layer="91"/>
-<wire x1="86.36" y1="63.5" x2="86.36" y2="53.34" width="0.1524" layer="91"/>
-<wire x1="86.36" y1="53.34" x2="63.5" y2="53.34" width="0.1524" layer="91"/>
-<pinref part="U1" gate="G$1" pin="P1.14_D9_MISO"/>
 </segment>
 </net>
 <net name="N$10" class="0">
@@ -891,7 +883,7 @@ Seeed Studio XIAO nRF52840 Sense is a tiny Bluetooth BLE development board desig
 <net name="N$1" class="0">
 <segment>
 <pinref part="JP1" gate="G$1" pin="3"/>
-<wire x1="80.01" y1="118.11" x2="80.01" y2="109.22" width="0.1524" layer="91"/>
+<wire x1="80.01" y1="120.65" x2="80.01" y2="109.22" width="0.1524" layer="91"/>
 <wire x1="80.01" y1="109.22" x2="139.7" y2="109.22" width="0.1524" layer="91"/>
 <wire x1="139.7" y1="109.22" x2="139.7" y2="71.12" width="0.1524" layer="91"/>
 <pinref part="U2" gate="G$1" pin="VCC"/>
@@ -906,12 +898,12 @@ Seeed Studio XIAO nRF52840 Sense is a tiny Bluetooth BLE development board desig
 <wire x1="0" y1="5.08" x2="33.02" y2="5.08" width="0.1524" layer="91"/>
 <wire x1="33.02" y1="5.08" x2="33.02" y2="31.75" width="0.1524" layer="91"/>
 <pinref part="JP1" gate="G$1" pin="1"/>
-<wire x1="74.93" y1="118.11" x2="74.93" y2="109.22" width="0.1524" layer="91"/>
+<wire x1="74.93" y1="120.65" x2="74.93" y2="109.22" width="0.1524" layer="91"/>
 <wire x1="74.93" y1="109.22" x2="60.96" y2="109.22" width="0.1524" layer="91"/>
 <wire x1="60.96" y1="109.22" x2="60.96" y2="101.6" width="0.1524" layer="91"/>
 <pinref part="U1" gate="G$1" pin="BATT+"/>
 <pinref part="JP4" gate="G$1" pin="2"/>
-<wire x1="36.83" y1="118.11" x2="36.83" y2="111.76" width="0.1524" layer="91"/>
+<wire x1="36.83" y1="120.65" x2="36.83" y2="111.76" width="0.1524" layer="91"/>
 <wire x1="36.83" y1="111.76" x2="38.1" y2="111.76" width="0.1524" layer="91"/>
 <wire x1="38.1" y1="111.76" x2="38.1" y2="101.6" width="0.1524" layer="91"/>
 <junction x="38.1" y="101.6"/>
@@ -960,6 +952,67 @@ Seeed Studio XIAO nRF52840 Sense is a tiny Bluetooth BLE development board desig
 <wire x1="12.7" y1="46.99" x2="12.7" y2="45.72" width="0.1524" layer="91"/>
 <pinref part="U1" gate="G$1" pin="P1.11_D6_TX"/>
 <wire x1="12.7" y1="45.72" x2="13.97" y2="45.72" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$8" class="0">
+<segment>
+<pinref part="U1" gate="G$1" pin="P1.14_D9_MISO"/>
+<wire x1="63.5" y1="53.34" x2="86.36" y2="53.34" width="0.1524" layer="91"/>
+<wire x1="86.36" y1="53.34" x2="86.36" y2="60.96" width="0.1524" layer="91"/>
+<pinref part="U2" gate="G$1" pin="MISO"/>
+<wire x1="86.36" y1="60.96" x2="101.6" y2="60.96" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$9" class="0">
+<segment>
+<pinref part="U1" gate="G$1" pin="P1.15_D10_MOSI"/>
+<wire x1="63.5" y1="57.15" x2="83.82" y2="57.15" width="0.1524" layer="91"/>
+<wire x1="83.82" y1="57.15" x2="83.82" y2="63.5" width="0.1524" layer="91"/>
+<pinref part="U2" gate="G$1" pin="MOSI"/>
+<wire x1="83.82" y1="63.5" x2="101.6" y2="63.5" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$14" class="0">
+<segment>
+<pinref part="U1" gate="G$1" pin="GND@1"/>
+<wire x1="33.02" y1="85.09" x2="12.7" y2="85.09" width="0.1524" layer="91"/>
+<wire x1="12.7" y1="85.09" x2="12.7" y2="104.14" width="0.1524" layer="91"/>
+<pinref part="JP5" gate="G$1" pin="1"/>
+<wire x1="12.7" y1="104.14" x2="8.89" y2="104.14" width="0.1524" layer="91"/>
+<wire x1="8.89" y1="104.14" x2="8.89" y2="120.65" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$17" class="0">
+<segment>
+<pinref part="U1" gate="G$1" pin="RST"/>
+<wire x1="36.83" y1="85.09" x2="36.83" y2="86.36" width="0.1524" layer="91"/>
+<wire x1="36.83" y1="86.36" x2="15.24" y2="86.36" width="0.1524" layer="91"/>
+<wire x1="15.24" y1="86.36" x2="15.24" y2="106.68" width="0.1524" layer="91"/>
+<wire x1="15.24" y1="106.68" x2="11.43" y2="106.68" width="0.1524" layer="91"/>
+<pinref part="JP5" gate="G$1" pin="2"/>
+<wire x1="11.43" y1="106.68" x2="11.43" y2="120.65" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$21" class="0">
+<segment>
+<pinref part="U1" gate="G$1" pin="SWCLK"/>
+<wire x1="40.64" y1="85.09" x2="40.64" y2="99.06" width="0.1524" layer="91"/>
+<wire x1="40.64" y1="99.06" x2="17.78" y2="99.06" width="0.1524" layer="91"/>
+<wire x1="17.78" y1="99.06" x2="17.78" y2="109.22" width="0.1524" layer="91"/>
+<wire x1="17.78" y1="109.22" x2="13.97" y2="109.22" width="0.1524" layer="91"/>
+<pinref part="JP5" gate="G$1" pin="3"/>
+<wire x1="13.97" y1="109.22" x2="13.97" y2="120.65" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$22" class="0">
+<segment>
+<pinref part="U1" gate="G$1" pin="SWDIO"/>
+<wire x1="44.45" y1="85.09" x2="44.45" y2="104.14" width="0.1524" layer="91"/>
+<wire x1="44.45" y1="104.14" x2="20.32" y2="104.14" width="0.1524" layer="91"/>
+<wire x1="20.32" y1="104.14" x2="20.32" y2="111.76" width="0.1524" layer="91"/>
+<wire x1="20.32" y1="111.76" x2="16.51" y2="111.76" width="0.1524" layer="91"/>
+<pinref part="JP5" gate="G$1" pin="4"/>
+<wire x1="16.51" y1="111.76" x2="16.51" y2="120.65" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>

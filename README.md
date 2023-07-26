@@ -2,9 +2,21 @@
 
 A simple example Eagle project for the <a href="https://github.com/meshtastic/firmware/pull/2633" target="_blank">Xiao BLE + E22-900M30S Meshtastic variant</a>.
 
-#### Note: This board is currently untested, so it's "build at your own risk" for the time being. I should be able to confirm it works as intended by the end of this week (7/28/23).
+#### UPDATE:
+The first round of boards was delivered yesterday (7/25/23) and work well, with two small caveats:
+* I'm an idiot and reversed MISO and MOSI, which fortunately can be fixed easily by swapping the pin mappings for those two in the firmware (`variant.h:98-99`).
 
-This is set up to use the E22 in 'automatic Tx/Rx switching' mode, with TXEN and DIO2 connected to each other rather than to the Xiao. I created it with two additional breakout boards in mind – the <a href="https://www.adafruit.com/product/1863" target="_blank">Adafruit Switched JST Breakout</a> and the <a href="https://www.adafruit.com/product/4654" target="_blank">Adafruit MiniBoost</a>. The switched JST goes in the GND, SW, +, and GND pins, and the MiniBoost goes in the EN, 5V, GND, and VIN pins. You can of course use any other 5V power source, and/or forego the JST board and solder the battery directly to the board, but the breakouts are inexpensive ($6.50 USD before tax and shipping) and ideally suited to the task. 
+* The landing pads for the MiniBoost were just a little too close to the XIAO for it to fit. I worked around this by scooting the XIAO up a tiny bit on its pads, which created enough overlap between the MiniBoost's landing pads and its through holes for it to be soldered on.
+
+I revised the board to fix these issues and also added another four-pin breakout to expose the XIAO's underside RST, GND, SWDIO, and SWCLK pins. The RST and GND pins can be used to add a secondary external reset switch, which is handy since the built-in reset button on the XIAO is not particularly easy to access once it's in an enclosure.
+
+#### This new version of the board is currently untested, so it's still "build at your own risk" for the time being. I'll post another update once I receive them, probably mid-August 2023.
+
+&nbsp;
+---
+&nbsp;
+
+This PCB is set up to use the E22 in 'automatic Tx/Rx switching' mode, with TXEN and DIO2 connected to each other rather than to the Xiao. I created it with two additional breakout boards in mind – the <a href="https://www.adafruit.com/product/1863" target="_blank">Adafruit Switched JST Breakout</a> and the <a href="https://www.adafruit.com/product/4654" target="_blank">Adafruit MiniBoost</a>. The switched JST goes in the GND, SW, +, and GND pins, and the MiniBoost goes in the EN, 5V, GND, and VIN pins. You can of course use any other 5V power source, and/or forego the JST board and solder the battery directly to the board, but the breakouts are inexpensive ($6.50 USD before tax and shipping) and ideally suited to the task. 
 
 To get the full 30 dBm transmit power out of the E22, a buffering capacitor (ideally at least 100 µF) should be placed between the 5V rail and GND. If using the MiniBoost, you can place a through-hole capacitor across its 5V and GND pins and then use the cap's leads in place of header pins for those two pads. Alternately, you could solder a capacitor across pins 10 (VCC) and 11 (GND) on the E22.
 
